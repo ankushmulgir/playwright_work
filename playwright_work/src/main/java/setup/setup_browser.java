@@ -8,7 +8,7 @@ import com.microsoft.playwright.BrowserType.LaunchOptions;
  * Ankush Mulgir - Date - 25th Feb, 2024
  * you can add more browsers in if condition
  * Create the object of this class and give a call to launch_browser method
- * 
+ * and do the further validation on page object created
  */
 
 public class setup_browser {

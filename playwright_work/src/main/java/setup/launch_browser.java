@@ -6,7 +6,7 @@ import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertTha
 
 /*
  * Ankush Mulgir - Date - 25th Feb, 2024
- * Run this class to Launch the browser
+ * Run this class to Launch the browsers of your choice
  * 
  */
 public class launch_browser {
