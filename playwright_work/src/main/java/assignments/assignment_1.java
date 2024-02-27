@@ -29,8 +29,8 @@ public class assignment_1 {
 			// Change the browser name in parameter here to launch choice of your browser
 			//Browser bwm = obj.launch_browser("Webkit");
 			
-			//Browser bwm = obj.launch_browser("Chrome"); // Example for chrome browser
-			Browser bwm = obj.launch_browser("chromium");
+			Browser bwm = obj.launch_browser("Chrome"); // Example for chrome browser
+			//Browser bwm = obj.launch_browser("chromium");
 			//Browser bwm = obj.launch_browser("firefox"); 
 			//Browser bwm = obj.launch_browser("edge"); 
 			
