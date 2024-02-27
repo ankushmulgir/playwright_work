@@ -43,6 +43,15 @@ public class setup_browser {
 			return bw;
 		}
 		
+		else if (browser_name.toLowerCase().equals("chromium")) {
+			System.out.println("\nLaunching Chromium Browser");
+			LaunchOptions lp = new LaunchOptions();
+			lp.setChannel("chrome");
+			lp.setHeadless(config_env.headless_flag);
+			Browser bw = playwright.chromium().launch(lp);
+			return bw;
+		}
+		
 		else {
 			System.out.println("ERROR...! Browser type not defined properly.");
 			return null;

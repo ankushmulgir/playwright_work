@@ -19,6 +19,7 @@ public class launch_browser {
 		
 		// Change the browser name in parameter here to launch choice of your browser
 		Browser bwm = obj.launch_browser("Webkit");
+		
 		//Browser bwm = browser.launch_browser("Chrome"); // Example for chrome browser
 		
 		// Verify weather browser launched successfully, if not launched program will terminate here
