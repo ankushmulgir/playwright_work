@@ -1,10 +1,8 @@
 package assignments;
 
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
-
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.Page;
-
 import config.config_env;
 import setup.setup_browser;
 
@@ -49,7 +47,7 @@ public class assignment_1 {
 			
 			// Navigate to the given url
 			pg.navigate(url);
-			pg.waitForTimeout(50000);
+			pg.waitForTimeout(1000);
 			//print the title of web page and url
 			System.out.println("Webpage title: " + pg.title());
 			System.out.println("Webpage url: " + pg.url());
@@ -58,7 +56,7 @@ public class assignment_1 {
 			// Assert web page title
 			assertThat(pg).hasTitle("Google Finance - Stock Market Prices, Real-time Quotes & Business News");
 			
-			// Asset web page url
+			// Assert web page url
 			assertThat(pg).hasURL(url);
 	
 			//close the browser and page
