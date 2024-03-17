@@ -58,5 +58,10 @@ public class setup_browser {
 		}
 				
 	}
+	
+	public static Browser close_browser(Browser bw) {
+		bw.close();
+		return null;
+	}
 
 }

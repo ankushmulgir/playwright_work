@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="playwright_framework_ankush">
+ <test name="LoginTest">
+     <parameter name="Username" value="user123@gmail.com"/>
+     <parameter name="password" value="test@123"/>
+     <parameter name="browser" value="chrome"/>
+     <classes>
+       <class name="com.qa.tests.LoginTest"/>
+     </classes>
+ </test><!-- Test -->
+</suite><!-- Test -->
